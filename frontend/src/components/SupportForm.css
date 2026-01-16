@@ -1,0 +1,84 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f7f9;
+  padding: 20px;
+}
+
+.support-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.form-header h2 {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.form-header p {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.support-form .form-group {
+  margin-bottom: 15px;
+}
+
+.support-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.support-form input,
+.support-form textarea,
+.support-form select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.support-form input:focus,
+.support-form textarea:focus,
+.support-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.support-form button {
+  padding: 12px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.support-form button:hover {
+  background: #0056b3;
+}
+
+.support-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: 500;
+  color: green;
+}
